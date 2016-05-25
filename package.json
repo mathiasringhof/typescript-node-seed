@@ -1,21 +1,26 @@
 {
-  "name": "tsmanual",
-  "version": "1.0.0",
+  "name": "typescript-node-seed",
+  "version": "1.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "build/lib/printer.js",
+  "bin": {
+    "typescript-node-seed-printit": "build/bin/printit.js"
+  },
   "scripts": {
-    "clean": "rimraf lib",
     "build": "tsc",
+    "build:watch": "tsc -w",
+    "clean": "rimraf build",
+    "lint": "tslint src/**/*.ts test/**/*.ts",    
     "repl": "ts-node",
     "test": "mocha --require ts-node/register test/**/*.ts",
-    "test:watch": "mocha --require ts-node/register --watch --watch-extensions ts test/**/*.ts src/**/*.ts",
-    "watch": "tsc -w"
+    "test:watch": "nodemon -e ts,json node_modules/mocha/bin/mocha --require ts-node/register test/**/*.ts"    
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.5.2",
+    "nodemon": "^1.9.2",
     "rimraf": "^2.5.2",
     "ts-node": "^0.7.3",
     "tslint": "^3.10.2",

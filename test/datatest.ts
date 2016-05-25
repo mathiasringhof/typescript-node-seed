@@ -1,4 +1,4 @@
-import data from '../src/data';
+import data from '../src/lib/data';
 
 import { assert } from 'chai';
 
