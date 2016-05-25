@@ -1,0 +1,24 @@
+{
+  "name": "tsmanual",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf lib",
+    "build": "tsc",
+    "repl": "ts-node",
+    "test": "mocha --require ts-node/register test/**/*.ts",
+    "test:watch": "mocha --require ts-node/register --watch --watch-extensions ts test/**/*.ts src/**/*.ts",
+    "watch": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.2",
+    "rimraf": "^2.5.2",
+    "ts-node": "^0.7.3",
+    "tslint": "^3.10.2",
+    "typescript": "^1.8.10"
+  }
+}
