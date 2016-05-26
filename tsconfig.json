@@ -4,7 +4,8 @@
         "target": "ES6",
         "noImplicitAny": false,
         "sourceMap": true,
-        "outDir": "./build"
+        "outDir": "./build",
+        "declaration": true
     },
     "exclude": [
         "node_modules",
