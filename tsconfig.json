@@ -8,6 +8,7 @@
         "declaration": true
     },
     "exclude": [
+        "build",
         "node_modules",
         "test"
     ]
