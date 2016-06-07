@@ -1,6 +1,6 @@
 {
   "name": "typescript-node-seed",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "",
   "main": "build/lib/printer.js",
   "typings": "build/lib/printer.d.ts",
@@ -11,10 +11,10 @@
     "build": "tsc",
     "build:watch": "tsc -w",
     "clean": "rimraf build",
-    "lint": "tslint src/**/*.ts test/**/*.ts",    
-    "repl": "ts-node",
-    "test": "mocha --require ts-node/register test/**/*.ts",
-    "test:watch": "nodemon -e ts,json node_modules/mocha/bin/mocha --require ts-node/register test/**/*.ts"    
+    "lint": "tslint src/**/*.ts",   
+    "node": "ts-node",
+    "test": "mocha --require ts-node/register src/test/**/*.ts",
+    "test:watch": "nodemon -e ts,json node_modules/mocha/bin/mocha --require ts-node/register src/test/**/*.ts"    
   },
   "author": "",
   "license": "ISC",
