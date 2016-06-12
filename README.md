@@ -13,11 +13,11 @@
 * git clone the repository
 * remove .git
 * npm install
-* typings install
+* npm run typings install
 
 ## WARNINGs
 
-* I'm just dabbling around with TypeScript and I might be missing obvious stuff
+* I'm just dabbling around with TypeScript and might be missing obvious stuff
 * remember to set **typings** in package.json if you want to properly consume your module from other TypeScript projects
 
 ## What's working
