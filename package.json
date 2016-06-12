@@ -8,7 +8,9 @@
     "typescript-node-seed-printit": "build/bin/printit.js"
   },
   "scripts": {
+    "prebuild": "npm run clean",
     "build": "tsc",
+    "prebuild:watch": "npm run prebuild",
     "build:watch": "tsc -w",
     "clean": "rimraf build",
     "lint": "tslint src/**/*.ts",
