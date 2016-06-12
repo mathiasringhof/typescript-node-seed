@@ -28,7 +28,8 @@
 * **npm run lint** - runs tslint
 * **npm run node** - run ts-node to get a REPL or run a script, e.g. a spike: npm run node src/spikes/consolespike.ts
 * **npm test** - run mocha on all *.ts files in *test/*
-* **npm test:watch** - re-run mocha on all *.ts files in *test/* everytime a file changes 
+* **npm run test:watch** - re-run mocha on all *.ts files in *test/* everytime a file changes
+* **npm run typings** - run locally installed typings. Note you need to use -- before using options, e.g. *npm run typings install dt~commander -- --global --save*
 
 ## TODO
 
