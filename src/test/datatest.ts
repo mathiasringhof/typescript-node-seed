@@ -1,9 +1,9 @@
-import data from '../lib/data';
+import data from "../lib/data";
 
-import { assert } from 'chai';
+import { assert } from "chai";
 
-describe('a test', function () {
-  it('should work', function () {
-    assert.equal(data, 'TEH DATA')
-  })
-})
+describe("a test", function () {
+  it("should work", function () {
+    assert.equal(data, "TEH DATA");
+  });
+});

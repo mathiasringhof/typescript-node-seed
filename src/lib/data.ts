@@ -1,1 +1,1 @@
-export default 'TEH DATA'
+export default "TEH DATA";
