@@ -1,12 +1,12 @@
 {
-  "globalDependencies": {    
-    "node": "registry:dt/node#6.0.0+20160523035754"
-  },
-  "devDependencies": {
-    "chai": "registry:npm/chai#3.5.0+20160415060238"
+  "globalDependencies": {
+    "mocha": "registry:env/mocha#2.2.5+20160723033700"
   },
   "globalDevDependencies": {
-    "mocha-node": "registry:dt/mocha-node#2.2.5+20160317120654",
-    "mocha": "registry:dt/mocha#2.2.5+20160317120654"
+    "mocha": "registry:env/mocha#2.2.5+20160723033700",
+    "mocha-node": "registry:dt/mocha-node#2.2.5+20160317120654"
+  },
+  "devDependencies": {
+    "chai": "registry:npm/chai#3.5.0+20160723033700"
   }
 }
